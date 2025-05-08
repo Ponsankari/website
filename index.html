@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodieee</title>
+    <style>
+      body{
+        background-color: rgb(198, 238, 245);
+        padding: 0;
+        margin: 0;
+      }
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: lightcyan;
+      
+      }
+      .home {
+        display: inline-block;
+        width: 150px;
+      }
+      .about {
+        display: inline-block;
+        width: 150px;
+      }
+      .contact {
+        display: inline-block;
+        width: 150px;
+      }
+      .nav {
+       
+        background-color: rgb(21, 106, 128);
+        
+        
+        width: 100%;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10px;
+      }
+      a:hover{
+        color: black;
+      }
+      .nav img{
+        padding: 10px 0 10px 5px;
+      }
+      div.relative {
+        position: relative;
+        width: 180px;
+        height: 40px;
+        border: 2px solid black;
+    
+      } 
+      
+      div.absolute {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        width: 60px;
+        height: 20px;
+        border: 1px solid black;
+        padding: 10px;
+      }
+      .one{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: darkmagenta;
+      }
+      .homepage{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+      }
+      .two{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: darkmagenta;
+      }
+      .aboutpage{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        color: black;
+
+      }
+      .aboutpage p{
+        font-size: 30px;
+      }
+      .three{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: darkmagenta;
+      }
+      .contactpage{
+        color: aliceblue;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        
+        }
+      .contactpage form{
+        border: 2px solid darkmagenta;
+        padding: 10px;
+        color: darkmagenta;
+      
+
+      }
+      .contactpage iframe{
+       
+        width: 100%;
+        height: 100% !important ;
+      }
+      .footer{
+        color: black;
+        background-color: beige;
+        background-size: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <img src="logo.png" width="100px" height="80px" />
+
+     <a href="#home" class="home" style="font-size: 30px;">Home</a>
+    <a href="#about" class="about" style="font-size: 30px;">About</a>
+    <a href="#contact" class="contact" style="font-size: 30px;">Contact</a>
+      <form action="">
+        <div class="relative" input type="text" placeholder="Search" name="search">
+      <div class="absolute" button type="submit">Submit</button>
+</div>
+    </div>
+</div>
+    </form>
+    <div class="one">
+        <h1 id="home">Home</h1>
+    </div>
+    <div class="homepage">
+    
+        
+        <img src="image 1.jpg" width="400px" height="500px">
+        <img src="image 2.jpg" width="400px" height="500px">
+        <img src="image 3.jpg" width="400px" height="500px">
+    </div>
+      
+    <div class="two">
+        <h1 id="about">About</h1>
+    </div>
+    <div class="aboutpage">
+        <img src="image 4.jpg" width="400px" height="500px">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas itaque corporis rerum exercitationem quasi facilis error tenetur iure, minus, eaque pariatur eos aspernatur laborum quos earum eligendi perspiciatis, nobis deserunt sed! Alias unde necessitatibus repellendus laboriosam explicabo aut tenetur magni perferendis quo blanditiis voluptates beatae corporis sunt modi, omnis nobis minima aspernatur nulla illum illo quaerat. Obcaecati animi fuga laboriosam, quaerat ab repellat, hic voluptatem atque in corporis unde omnis magnam necessitatibus provident deserunt asperiores esse eaque dignissimos velit expedita voluptates officiis sit molestiae eligendi. Repellat reprehenderit eligendi culpa necessitatibus fugiat, porro voluptatibus doloremque perspiciatis quam, veniam quisquam nulla?
+          </p>
+    </div>
+    <div class="three">
+        <h1 id="contact">Contact</h1>
+
+    </div>
+    <div class="contactpage">
+        <form class="form">
+            <label>Name</label><br><br>
+            <input type="text" name="name"><br><br>
+            <label>Phone Number</label><br><br>
+            <input type="integer" name="phone Number"><br><br>
+            <label>Email Id</label><br><br>
+            <input type="email" name="email id"><br><br>
+            <button type="submit">submit</button>
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250618.45426028955!2d76.69702048671874!3d11.045123399999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859b004b68917%3A0x7f1ccc5cab96d92d!2sThe%20Foodie%20Shawarma!5e0!3m2!1sen!2sin!4v1746599336717!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="footer">
+      <p>Copyright ©2025; Designed by 
+        IP</p>
+
+    </div>
+  </body>
+</html>
